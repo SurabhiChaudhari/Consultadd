@@ -15,8 +15,8 @@ public class stringformating {
         System.out.println("");
         System.out.println("=====================================");
         System.out.printf("%-15s %02d %n",s1,i1);
-        System.out.printf("%-15s %02d %n",s2,i2);
-        System.out.printf("%-15s %02d %n",s3,i3);
+        System.out.printf("%-15s %03d %n",s2,i2);
+        System.out.printf("%-15s %03d %n",s3,i3);
         System.out.println("=====================================");
         System.out.println("");
 
