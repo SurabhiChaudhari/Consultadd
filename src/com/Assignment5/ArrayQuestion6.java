@@ -2,7 +2,7 @@ package com.Assignment5;
 
 import java.util.Arrays;
 
-public class ArrayQuestion1 {
+public class ArrayQuestion6 {
     static int removeDuplicates(int arr[], int n)
     {
         if (n == 0 || n == 1)
@@ -21,16 +21,21 @@ public class ArrayQuestion1 {
 
 
     public static void main(String[] args) {
-        int arr[] = {4, 1, 2, 6, 7, 1, 2};
+        int arr[] = {2,2,3,3,4,4,4,11,11,11,11};
         Arrays.sort(arr);
         int n = arr.length;
+    int []  b = new int [n];
         n = removeDuplicates(arr, n);
-        for (int i=0; i<n; i++)
-            System.out.print(arr[i]+" ");
-
-
+        for (int i=0; i<n; i++) {
+            for (int e = 0; e < n; e++) {
+                b[e] = arr[i++];
             }
         }
+        System.out.println(Arrays.toString(b));
+
+
+    }
+}
 
 
 
