@@ -1,4 +1,4 @@
-package com.assignment;
+package com.assignment1;
 //Swap two numbers using third variable as result name and do the same task without using any third variable.
 public class numberswap {
     public static void main (String args[]){
